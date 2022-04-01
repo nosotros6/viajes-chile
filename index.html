@@ -29,9 +29,9 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgba(#000,0)">
 
-      <div class="container-fluid">
+        <div class="container-fluid">
         <a class="navbar-brand d-flex align-items-center" href="#">
-          <img src="assets/img/viajes.png" alt="" width="30" height="24" class="d-inline-block align-text-top">Viajes Chile
+            <img src="assets/img/viajes.png" alt="" width="30" height="24" class="d-inline-block align-text-top">Viajes Chile
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -42,13 +42,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="##sec-intro">Quiénes Somos</a>
+                    <a class="nav-link" href="#intro">Quiénes Somos</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="##sec-destacados">Destacados</a>
+                    <a class="nav-link" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="##sec-contacto">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -80,11 +80,11 @@
 
     <!-- Sections: Intro/Destacados/Contacto-->
     <div class="d-none d-md-block">
-        <section class="container  py-5 intro">
-            <p class="text-center fs-3">¿QUIÉNES SOMOS?</p>
+        <section id="intro" class="container  py-5 intro">
+            <p class="text-center fs-3 pt-5 pb-4">¿QUIÉNES SOMOS?</p>
             <div class="row">
                 <div class="col-sm-12 col-lg-4">
-                    <div class="card cardintro px-3" style="width: 25rem;">
+                    <div class="card cardintro" style="width: 25rem;">
                         <i class="fa-solid fa-plane py-1 fa-2x iconintro"></i>
                         <div class="card-body">
                             <p class="card-text textointro">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -112,11 +112,11 @@
             </div>
         </section>
     </div>
-    <section class="container align-middle">
-        <p class="text-center fs-3 pt-5 pb-3 titlecards">DESTACADOS</p>
+    <section class="container m-auto align-middle">
+        <p id="destacados" class="text-center fs-3 pt-5 pb-4 titlecards">DESTACADOS</p>
         <div class="row justify-content-center">
-            <div class="col-sm-12 col-lg-3">
-                <div class="card cardsdestac" style="width: 17rem;">
+            <div class="col-sm-12 col-lg-3 py-3">
+                <div class="card mx-auto cardsdestac" style="width: 17rem;">
                     <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -124,8 +124,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-3">
-                <div class="card cardsdestac" style="width: 17rem;">
+            <div class="col-sm-12 col-lg-3 py-3">
+                <div class="card mx-auto ardsdestac" style="width: 17rem;">
                     <img src="assets/img/card2.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -133,8 +133,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-3">
-                <div class="card cardsdestac" style="width: 17rem;">
+            <div class="col-sm-12 col-lg-3 py-3">
+                <div class="card mx-auto cardsdestac" style="width: 17rem;">
                     <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -142,21 +142,21 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-3">
-                <div class="card cardsdestac" style="width: 17rem;">
+            <div class="col-sm-12 col-lg-3 py-3">
+                <div class="card mx-auto cardsdestac" style="width: 17rem;">
                     <img src="assets/img/card4.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
     </section>
     
     <div class="container-fluid px-5 Contacto">
         <div class="container-fluid formulario pt-5">
-            <p class="text-center fs-3" style="color: #ffffff; margin-bottom: 5%;">CONTACTO</p>
+            <p id="contacto" class="text-center fs-3 pt-5 pb-3" style="color: #ffffff; margin-bottom: 5%;">CONTACTO</p>
             <div class="col-12">
                 <label for="inputAddress" class="form-label formcontacto">Nombre</label>
                 <input type="text" class="form-control" id="inputAddress">
@@ -175,21 +175,21 @@
     <!-- footer -->
     <section class="container-fluid footer">
         <div class="row">
-            <div class="col-7">
-                <h6 class="text titlefooter">VIAJES CHILE</h6>
+            <div class="col-12 col-lg-7">
+                <h6 class="text-center titlefooter">VIAJES CHILE</h6>
             </div>
-            <div class="col-5 iconos">
-                <div class="row">
-                    <div class="col-md-1 col-lg-1 col-xlg-1"> 
+            <div class="col-12 col-lg-5 iconos">
+                <div class="row justify-content-center">
+                    <div class="col-1 col-lg-1 col-xl-1"> 
                         <i class="fa-brands fa-github-square"></i>
                     </div> 
-                    <div class="col-md-1 col-lg-1 col-xlg-1"> 
+                    <div class="col-1 col-lg-1 col-xl-1"> 
                         <i class="fa-brands fa-linkedin"></i>
                     </div> 
-                    <div class="col-md-1 col-lg-1 col-xlg-1"> 
+                    <div class="col-1 col-lg-1 col-xl-1"> 
                         <i class="fa-brands fa-twitter-square"></i>
                     </div>
-                    <div class="col-md-1 col-lg-1 col-xlg-1"> 
+                    <div class="col-1 col-lg-1 col-xl-1"> 
                         <i class="fa-brands fa-facebook-square"></i>
                     </div> 
                 </div> 
