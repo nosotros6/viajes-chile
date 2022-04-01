@@ -4,22 +4,38 @@ html {
 
 body {
     background: #000000;
+    font-family: 'Bubbler One', sans-serif;
 }
 
 .intro {
- color: #ffffff;
+    color: #ffffff;
+}
+
+.cardintro {
+    background: #000000;
+    color: #ffffff;
+}
+
+.iconintro {
+    color: #ffffff;
+    background: #03f0f8;
+    text-align: center;
 }
 
 .titlecards {
     color: #ffffff;
+}
+
+    .textointro {
+    font-size: 90%;
    }
 
-.cards {
+.cardsdestac {
  background: #03f0f8;
  color: #ffffff;
 }
 
-.formcontaco {
+.formcontacto {
     color: #ffffff;
 }
 
