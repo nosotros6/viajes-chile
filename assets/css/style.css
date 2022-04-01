@@ -1,4 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .footer {
     background: #03f0f8; 
     color: #ffffff;
+    padding: 1%;
+}
+
+.titlefooter {
+    padding-left: 15%;
+    padding-top: 1%;
+
+}
+
+.iconos {
+    font-size: 25px;
+    padding-left: 10%;
 }
