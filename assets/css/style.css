@@ -22,18 +22,28 @@ body {
     text-align: center;
 }
 
-.titlecards {
-    color: #ffffff;
-}
-
     .textointro {
     font-size: 90%;
     text-align: justify;
-   }
+}
 
 .cardsdestac {
- background: #03f0f8;
- color: #ffffff;
+    background: #00ffff;
+    color: #ffffff;
+}
+
+#destacados {
+    color: #ffffff;
+}
+
+.cardsdestac {
+    color: #ffffff;
+}
+
+#titulotarjeta {
+    font-family: 'Bubbler One', sans-serif;
+    color: #ffffff;
+    text-align: left;
 }
 
 .formcontacto {
@@ -41,23 +51,21 @@ body {
 }
 
 .btn-contacto {
-    background: #03f0f8;
+    background: #00ffff;
     color: #ffffff;
 }
 
 .footer {
-    background: #03f0f8; 
+    background: #00ffff; 
     color: #ffffff;
     padding: 1%;
 }
 
 .titlefooter {
-    /* padding-left: 15%;
-    padding-top: 1%; */
-
+    font-family: 'Bubbler One', sans-serif;
+    color: #ffffff;
 }
 
 .iconos {
     font-size: 25px;
-/*     padding-left: 1%;
- */}
+}
