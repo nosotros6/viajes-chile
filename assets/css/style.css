@@ -2,6 +2,32 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background: #000000;
+}
+
+.intro {
+ color: #ffffff;
+}
+
+.titlecards {
+    color: #ffffff;
+   }
+
+.cards {
+ background: #03f0f8;
+ color: #ffffff;
+}
+
+.formcontaco {
+    color: #ffffff;
+}
+
+.btn-contacto {
+    background: #03f0f8;
+    color: #ffffff;
+}
+
 .footer {
     background: #03f0f8; 
     color: #ffffff;
